@@ -1,0 +1,36 @@
+
+/* responsive */
+
+@media screen and (max-width:1300px){ 
+    .about{ padding: 20px;}
+    }
+    @media screen and (max-width:980px){ 
+        .login li{ margin: 0 10px;}
+        nav{ display: none;}
+        .btn-mob{ display: block; float: right; }
+        .col-t-4{ flex: 1 0 33.33%; max-width: 33.33%;}
+        .col-t-6{ flex: 1 0 50%; max-width: 50%;}
+        .col-t-12{ flex: 1 0 100%; max-width: 100%;}
+        .wrap-3{ background: url(../img/bg2.webp) no-repeat right center/cover;}
+        .services{ padding: 1rem 2rem;}
+        .budget .list{ margin: 0 20px;}
+        .tour-status{padding: 0 15px 0 20px;}
+    }
+    @media screen and (max-width:767px){ 
+        .banner{ padding:50px;}
+        .social li{ margin:  0 5px;}
+        .services{ padding: 1rem;}
+        .col-m-12{ flex: 1 0 100%; max-width: 100%;}
+        
+    }
+    @media screen and (max-width:460px){
+        .hidden-m{ display: none; }
+        .col-p-4{ flex: 1 0 33.33%; max-width: 33.33%;}
+        .col-p-8{ flex: 1 0 66.66%; max-width: 66.66%;}
+        .col-p-12{ flex: 1 0 100%; max-width: 100%;}
+        .banner p:nth-child(1){ font-size: 50px;}
+        .tour-status{ padding: 0;}
+        .tab ul li a,.tab ul li a span.fa{ font-size: 16px;}
+        .package.centermode{ margin-left: 0; margin-right: 0;}
+        .social2 li{ margin: 2px;}
+    }

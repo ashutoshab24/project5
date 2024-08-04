@@ -1,0 +1,8 @@
+
+*,::before,::after{margin:0;box-sizing:border-box}
+a{ text-decoration: none; display: inline-block;}
+img{ vertical-align: bottom;}
+label{ display: inline-block;}
+button{ padding: 0; cursor: pointer;}
+:disabled{ cursor: not-allowed;}
+ul{ list-style: none; padding: 0;}
